@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target  = '11.0'
 
-  spec.source_files       = 'Logger1/Classes/**/*.swift'
+  spec.source_files       = 'Logger1/Logger1/Classes/**/*.swift'
 
   # spec.framework      = 'SystemConfiguration'
   # spec.ios.framework  = 'UIKit'

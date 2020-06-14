@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.authors       = { 'shoto.kobayashi' => 'deepstrap353@gmail.com' }
   spec.summary       = 'ARC and GCD Compatible Reachability Class for iOS and OS X.'
   spec.source        = { :git => 'https://github.com/sk409/Logger1.git', :tag => 'v0.0.3' }
-  spec.swift_version = '5.0'
+  spec.swift_version = '4.0'
 
   spec.ios.deployment_target  = '11.0'
 
@@ -25,5 +25,5 @@ Pod::Spec.new do |spec|
   # spec.ios.framework  = 'UIKit'
   # spec.osx.framework  = 'AppKit'
 
-  # spec.dependency 'Logger2'
+  spec.dependency 'Logger2'
 end

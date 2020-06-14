@@ -1,0 +1,20 @@
+{
+  "name": "Logger2",
+  "version": "0.0.3",
+  "license": "MIT",
+  "homepage": "https://github.com/sk409/Logger2",
+  "authors": {
+    "shoto.kobayashi": "deepstrap353@gmail.com"
+  },
+  "summary": "ARC and GCD Compatible Reachability Class for iOS and OS X.",
+  "source": {
+    "git": "https://github.com/sk409/Logger2.git",
+    "tag": "v0.0.3"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "Logger2/Logger2/Classes/**/*.swift",
+  "swift_version": "5.0"
+}

@@ -1,0 +1,22 @@
+PODS:
+  - Logger2 (0.0.3)
+
+DEPENDENCIES:
+  - Logger2 (from `https://github.com/sk409/Logger2.git`, tag `v0.0.3`)
+
+EXTERNAL SOURCES:
+  Logger2:
+    :git: https://github.com/sk409/Logger2.git
+    :tag: v0.0.3
+
+CHECKOUT OPTIONS:
+  Logger2:
+    :git: https://github.com/sk409/Logger2.git
+    :tag: v0.0.3
+
+SPEC CHECKSUMS:
+  Logger2: cd02966cd3c761a32fb5ece1de2331bdd20cfa6c
+
+PODFILE CHECKSUM: 281502ca267630e9f1533c3012bb6133ab2ca6d2
+
+COCOAPODS: 1.9.3

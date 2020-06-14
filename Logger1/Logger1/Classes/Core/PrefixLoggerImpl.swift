@@ -1,14 +1,20 @@
 import Foundation
+import Logger2
 
-class PrefixLoggerImpl: PrefixLogger {
-    func prefix() -> String {
+open class PrefixLoggerImpl: NSObject, PrefixLogger {
+    
+    override public init() {
+        super.init()
+    }
+    
+    open func prefix() -> String {
         return "TEST_"
     }
     
-    func log(_ message: String) {
+    open func log(_ message: String) {
         print(prefix() + message)
+        let l = SuffixLoggerImpl()
+        l.log(message)
     }
-    
-    
     
 }

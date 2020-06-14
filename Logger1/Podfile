@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Logger1' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Logger1
+  pod "Logger2", git: "https://github.com/sk409/Logger2.git", tag: "v0.0.3"
+
+  target 'Logger1Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Logger1UITests' do
+    # Pods for testing
+  end
+
+end
